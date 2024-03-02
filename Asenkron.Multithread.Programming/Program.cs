@@ -202,7 +202,6 @@
 
 #endregion
 
-
 #region Cancellation Token İle Thread İptal Etme
 
 //Thread thread = new((cancellationToken) =>
@@ -244,6 +243,7 @@ thread.Start();
 thread.Interrupt();
 
 #endregion
+
 
 
 Console.WriteLine("bitti");
